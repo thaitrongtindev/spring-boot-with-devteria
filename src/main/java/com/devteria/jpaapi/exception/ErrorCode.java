@@ -5,6 +5,7 @@ public enum ErrorCode {
     USER_NOT_EXSITED(105, "User not existed"),
     PASSWORD_INVALID(103, "Password must be at least 3 characters"),
     INVALID_KEY(103, "Invalid Key"),
+    UNAUTHENTICATED(106, "Unauthenticated"),
     ;
 
     private int code;
